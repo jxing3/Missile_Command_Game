@@ -1,0 +1,30 @@
+CS600.120 Team CX HW9 
+Kareem Fakhoury kareem@jhu.edu
+David Lee dlee140@jhu.edu
+Jesse Xing jxing3@jhu.edu
+
+To play the game, run ./miscom.
+Extra library required : sdl, sdl_mixer
+ - sudo apt-get install libsdl1.2-dev libsdl-mixer1.2-dev
+
+How to win : 
+ - Survive the waves of incoming missiles.
+ - Game increments to next level when last missile from last wave gets destroyed
+   without all the cities being destroyed
+ - The game gets more difficult every level.
+ - The game is lost when all cities are destroyed.
+
+Other things to note : 
+ - Friendly fire does not exist (User-missiles do not hit the cities)
+ - If the enemy missiles hit the domes, all their missiles are gone. 
+ - Difficulty can be set at the start of a new game
+ - Enemy missiles can "kill" their own side due to their friend's explosions. 
+
+
+Possible error messages :
+ALSA lib pcm.c:7339:(snd_pcm_recover) underrun occurred
+ - Occurrs on VirtualBox. Thought to be Lubuntu system sound problem.
+ - Was not observed on actual Ubuntu-running machine.
+
+
+
